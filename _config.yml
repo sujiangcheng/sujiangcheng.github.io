@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "/images/jiangcheng.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Jiangcheng Su"
+  pronouns         : # example: "He/His"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Hong Kong"
+  employer         : "The Hong Kong Polytechnic University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "jiangcheng.su@connect.polyu.hk" 
 
   # Academic websites
   academia         : # URL
