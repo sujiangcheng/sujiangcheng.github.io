@@ -16,7 +16,7 @@ My research focuses on tethered aerial robots for aerial physical interaction, s
 robust control, trajectory planning, and multi-robot cooperation.
 
 Previously, I received my B.Eng. from [Xiamen University](https://en.xmu.edu.cn/) in 2019,
-advised by [Prof. Liaoni Wu](https://aerospace.xmu.edu.cn/sy/szdw/xb/ktznkzyjzx/4.htm),
+advised by [Prof. Liaoni Wu](https://aerospace.xmu.edu.cn/info/2163/49693.htm),
 and my M.Eng. from [Beihang University](https://ev.buaa.edu.cn/) in 2021,
 advised by [Prof. Jia Song](https://shi.buaa.edu.cn/songjia/).
 
