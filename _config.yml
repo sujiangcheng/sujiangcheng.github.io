@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Jiangcheng Su / Phd Candidate in PolyU"
+title                    : "Jiangcheng Su / PhD Candidate at PolyU"
 title_separator          : "-"
 name                     : &name "Jiangcheng Su"
-description              : &description "personal description"
+description              : &description "PhD candidate in the Department of Aeronautical and Aviation Engineering at The Hong Kong Polytechnic University, working on tethered aerial robots for aerial physical interaction."
 url                      : https://sujiangcheng.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sujiangcheng/sujiangcheng.github.io"
@@ -25,20 +25,20 @@ author:
   avatar           : "jiangcheng1.png"
   name             : "Jiangcheng Su"
   pronouns         : # example: "He/His"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD candidate at The Hong Kong Polytechnic University. I work on tethered aerial robots (Spider-X) for aerial physical interaction — design, robust control, trajectory planning, and multi-robot cooperation."
   location         : "Hong Kong"
-  employer         : "Hong Kong Polytechnic University"
+  employer         : "The Hong Kong Polytechnic University"
   uri              : # URL
   email            : "jiangcheng.su@connect.polyu.hk" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=B4ECVkEAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -46,12 +46,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "sujiangcheng"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -296,7 +296,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
