@@ -1,0 +1,142 @@
+# Each entry creates one research showcase. Add more by copying this entry.
+# Images without a src are hidden on the public site.
+- id: multi-tethered-aerial-robots
+  topic: Collaborative aerial robotics
+  title: "Multi-Tethered Aerial Robot System for Precise Aerial Physical Collaborative Interaction"
+  authors: "Jiangcheng Su, Qingyang Meng, Haoyang Yang, Xiaozhen Zhang, and Hailong Huang"
+  venue: "IEEE Transactions on Consumer Electronics"
+  year: 2026
+  paper_url: "https://doi.org/10.1109/TCE.2026.3736711"
+  # Summary paraphrased from the publisher's abstract:
+  # https://ieeexplore.ieee.org/abstract/document/11703665
+  summary: >-
+    We present a collaborative aerial robot system in which two tethered
+    quadrotors jointly manipulate a bar payload for aerial physical interaction.
+    A Lagrangian model describes the system dynamics, while a computed-torque
+    controller with an extended state observer guides the payload along its
+    reference trajectory. Physical experiments demonstrate precise interaction
+    with payload position errors below 5 cm.
+  images:
+    - src: "/images/research/multi-tethered-interaction-results.png"
+      width: 1314
+      height: 1026
+      alt: "Five-panel figure showing the 3D trajectory of two tethered quadrotors and their bar payload, longitudinal swing tracking, lateral sway regulation, payload yaw control, and thrust commands during aerial physical interaction."
+      caption: "Trajectory and control responses during aerial physical interaction: (a) 3D spatial trajectory; (b–d) longitudinal swing, lateral sway, and payload yaw; (e) thrust commands for the two quadrotors. Click the figure to view it at full size."
+  video:
+    src: "/files/videos/multi-tethered-aerial-robot.mp4"
+    poster: "/images/research/multi-tethered-video-poster.jpg"
+    bvid: "BV14CHf6eEHx"
+    youtube_url: "https://www.youtube.com/watch?v=hzQJZNNohic"
+    caption: "Experimental demonstration of the collaborative aerial robot system."
+
+- id: spider-x
+  topic: Tethered aerial robotics
+  title: "Spider-X: A Tethered Quadrotor with Bidirectional Rotor for Approaching Operation"
+  authors: "Jiangcheng Su, Guanzhong Zhou, Haoyang Yang, and Hailong Huang"
+  venue: "ISA Transactions"
+  year: 2026
+  status: "Under review"
+  # Based on the existing publication entry and the user-supplied experiment video.
+  summary: >-
+    Spider-X is a tethered quadrotor with bidirectional rotors, developed for
+    approaching operations and aerial physical interaction. The experimental
+    video shows the platform in flight, including tether-length adjustment
+    and tests under wind disturbances.
+  images:
+    - src: "/images/research/spider-x-platform.jpg"
+      width: 1801
+      height: 1430
+      alt: "Spider-X experimental platform: the windlass, tether, and quadrotor on the left, and a close-up with longitudinal forces and angles on the right."
+      caption: "Spider-X platform and longitudinal force analysis (doctoral thesis, Fig. 3.2). Click the figure to view it at full size."
+  video:
+    src: "/files/videos/spider-x-experiments.mp4"
+    poster: "/images/research/spider-x-video-poster.jpg"
+    caption: "Spider-X experimental demonstrations, including tether-length adjustment and wind-disturbance tests."
+
+- id: spider-x-trajectory-planning
+  topic: Motion planning and physical interaction
+  title: "Spider-X: Trajectory Planning for Aerial Physical Interaction"
+  authors: "Jiangcheng Su"
+  venue: "Doctoral thesis"
+  context: "Section 3.4"
+  # Based on Section 3.4 and Fig. 3.13 of PHD_thesis_Su_Jiangcheng.pdf.
+  # This thesis study is separate from the ISA Transactions submission above.
+  summary: >-
+    This study extends Spider-X from tether-angle tracking to trajectory
+    planning around complex surfaces. An optimal control formulation generates
+    smooth approaching motions while accounting for the robot's dynamics,
+    actuator limits, obstacle clearance, and changes in the tether's effective
+    pivot. The experiment demonstrates the transition from an initial suspended
+    state, through tether release, to an aerial physical interaction target on
+    a shaped surface.
+  media_layout: portrait-pair
+  figure_title: "Planned approach"
+  images:
+    - src: "/images/research/spider-x-trajectory-setup.jpg"
+      width: 1258
+      height: 2111
+      alt: "Spider-X trajectory planning experiment on a shaped surface, showing the windlass, starting state, successive robot poses along the planned path, and the aerial physical interaction target."
+      caption: "Experimental setup and planned approach to the interaction target (doctoral thesis, Fig. 3.13). Click to enlarge."
+  video:
+    src: "/files/videos/spider-x-trajectory-planning.mp4"
+    webm_src: "/files/videos/spider-x-trajectory-planning.webm"
+    poster: "/images/research/spider-x-trajectory-poster.jpg"
+    orientation: portrait
+    caption: "Flight demonstration of Spider-X approaching the shaped surface with coordinated tether release."
+
+- id: tether-connected-tilt-rotor
+  topic: Tilt-rotor aerial robotics
+  title: "Tether-Connected Tilt-Rotor Quadrotor Robot for Building Maintenance"
+  authors: "Jiangcheng Su, Guanzhong Zhou, Haoyang Yang, Li Cheng, and Hailong Huang"
+  venue: "IEEE International Conference on Control & Automation (ICCA)"
+  year: 2026
+  paper_url: "https://doi.org/10.1109/ICCA69928.2026.11618291"
+  # Publication metadata follows the existing website entry.
+  # Summary and figures are based on doctoral thesis Section 3.5.
+  summary: >-
+    We introduce a tether-connected quadrotor with tilting rotors for building
+    maintenance. Redirecting rotor thrust enables lateral tether-angle control
+    without requiring a roll change of the airframe, helping decouple position
+    and attitude. System identification, control linearization, and a cascaded
+    controller support longitudinal and lateral command tracking, demonstrated
+    in physical flight experiments.
+  image_layout: paired
+  figure_title: "Platform and tracking results"
+  images:
+    - src: "/images/research/tilt-rotor-platform.jpg"
+      width: 1285
+      height: 1495
+      alt: "Tether-connected tilt-rotor quadrotor, with labels showing the windlass, tether, tilting rotor, and coordinate frames."
+      caption: "Tilt-rotor platform and experimental setup (doctoral thesis, Fig. 3.17). Click to enlarge."
+    - src: "/images/research/tilt-rotor-tracking.png"
+      width: 1440
+      height: 1988
+      alt: "Six plots of longitudinal and lateral tether-angle tracking, angular rates, thrust command, and rotor tilt-angle response."
+      caption: "Longitudinal and lateral command-tracking results (doctoral thesis, Fig. 3.21). Click to enlarge."
+  video:
+    src: "/files/videos/tilt-rotor-experiments.mp4"
+    poster: "/images/research/tilt-rotor-video-poster.jpg"
+    caption: "Flight demonstration of the tether-connected tilt-rotor quadrotor and its longitudinal and lateral motion."
+
+- id: nmpc-cooperative-trajectory-tracking
+  topic: Predictive control and cooperative transport
+  title: "NMPC-Based Cooperative Trajectory Tracking"
+  venue: "Simulation study"
+  # Research focus supplied by the user; the attached image shows a hover snapshot.
+  # No publication metadata or quantitative tracking results have been supplied.
+  summary: >-
+    We investigate nonlinear model predictive control (NMPC) for cooperative
+    trajectory tracking of a cable-suspended payload carried by four quadrotors.
+    The research focuses on coordinating vehicle motion through predictive
+    optimization of the coupled aerial transport system, with the aim of
+    following payload reference trajectories while maintaining stable load
+    sharing. The simulation provides a visual testbed for inspecting payload
+    motion, tracking error, and individual cable tensions during coordinated
+    operation.
+  figure_title: "Cooperative transport simulation"
+  images:
+    - src: "/images/research/nmpc-cooperative-transport.png"
+      width: 1280
+      height: 900
+      alt: "Simulation of four quadrotors connected by red, blue, purple, and yellow cables to a shared suspended payload. An overlay displays the hover state, payload and target heights, position error, and individual cable tensions."
+      caption: "Hover configuration of the four-quadrotor cooperative transport system. The overlay displays payload height, position error, and individual cable tensions. Click to view the full-size simulation snapshot."
