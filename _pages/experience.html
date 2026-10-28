@@ -1,0 +1,86 @@
+---
+layout: archive
+title: "Experience"
+permalink: /experience/
+author_profile: true
+---
+
+<style>
+  .experience-page { --experience-accent: #157a82; --experience-muted: #606a70; }
+  .experience-page .experience-intro { margin: .6rem 0 2rem; color: var(--experience-muted); font-size: .95rem; }
+  .experience-page .experience-entry { border-top: 3px solid var(--experience-accent); padding-top: 1.4rem; margin-bottom: 3rem; scroll-margin-top: 5rem; }
+  .experience-page .experience-category { margin: 0 0 .65rem; color: var(--experience-accent); font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+  .experience-page .experience-heading { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .35rem 1rem; margin-bottom: .5rem; }
+  .experience-page .experience-heading h2 { margin: 0; font-size: 1.5rem; line-height: 1.3; }
+  .experience-page .experience-dates { margin: 0; color: var(--experience-muted); font-size: .8rem; white-space: nowrap; }
+  .experience-page .experience-role { margin: .4rem 0 .15rem; font-weight: 600; font-size: 1rem; }
+  .experience-page .experience-team { margin: 0 0 1.25rem; color: var(--experience-muted); font-size: .85rem; }
+  .experience-page .experience-details { padding-left: 1.2rem; margin: 1.2rem 0; font-size: .9rem; line-height: 1.8; }
+  .experience-page .experience-details li + li { margin-top: .8rem; }
+  .experience-page .experience-button { display: inline-flex; align-items: center; min-height: 44px; padding: .5rem .9rem; border: 1px solid var(--experience-accent); border-radius: 5px; color: var(--experience-accent); text-decoration: none; font-size: .8rem; font-weight: 600; }
+  .experience-page .experience-button:hover { background: rgba(21,122,130,.08); }
+  .experience-page a:focus-visible { outline: 3px solid #b57613; outline-offset: 4px; }
+  .experience-page .experience-figure { display: block; width: 100%; margin: 1.5rem 0 0; }
+  .experience-page .experience-figure img { display: block; width: 100%; height: auto; border-radius: 6px; }
+  .experience-page .experience-figure figcaption { margin-top: .5rem; color: var(--experience-muted); font-size: .72rem; line-height: 1.6; }
+  .experience-page .experience-project-grid { display: grid; grid-template-columns: minmax(0,1fr) minmax(180px,32%); gap: 1.5rem; align-items: start; margin-top: 1.1rem; }
+  .experience-page .experience-project-grid .experience-figure { margin-top: 0; }
+  .experience-page .experience-project-grid .experience-details { margin-top: .8rem; }
+  .experience-page .experience-context { margin-top: 0; font-size: .9rem; line-height: 1.8; }
+  [data-theme="dark"] .experience-page { --experience-accent: #6ac7cf; --experience-muted: #b5c0c6; }
+  @media (max-width: 600px) {
+    .experience-page .experience-project-grid { grid-template-columns: minmax(0,1fr); }
+    .experience-page .experience-project-grid .experience-figure { max-width: 300px; margin-inline: auto; }
+  }
+</style>
+
+<div class="experience-page">
+  <p class="experience-intro">Industry and project experience in flight control, trajectory design, and aircraft systems.</p>
+
+  <article class="experience-entry" id="xpeng-aeroht" aria-labelledby="xpeng-aeroht-title">
+    <p class="experience-category">Industry experience</p>
+    <div class="experience-heading">
+      <h2 id="xpeng-aeroht-title">XPENG AEROHT <span lang="zh-CN">小鹏汇天</span></h2>
+      <p class="experience-dates"><time datetime="2022-01">Jan 2022</time> &ndash; <time datetime="2023-09">Sep 2023</time></p>
+    </div>
+    <p class="experience-role">Control Algorithm Engineer</p>
+    <p class="experience-team">Flight Control and Autonomous Driving Center</p>
+    <ul class="experience-details">
+      <li><strong>Aircraft design and control.</strong> Contributed to overall aircraft design and control and navigation development for eVTOL platforms in the <strong>50 kg, 200 kg, and 2,000 kg classes</strong>. Worked on system identification, trajectory tracking, robust controller design, and aircraft-level stability and performance analysis.</li>
+      <li><strong>Unified and fault-tolerant control.</strong> Developed a unified controller based on <strong>incremental nonlinear dynamic inversion (INDI)</strong> and investigated motor-failure-tolerant control for quadrotor and hexarotor aircraft. Named as the <strong>first inventor on a granted patent</strong> for fault-tolerant control.</li>
+    </ul>
+    <a class="experience-button" href="https://cn.aridge.com/" target="_blank" rel="noopener noreferrer">Company website <span aria-hidden="true">&nbsp;↗</span></a>
+    <figure class="experience-figure">
+      <a href="{{ '/images/experience/xpeng-aeroht-x2.jpg' | relative_url }}" aria-label="View full-size image of the XPENG AEROHT X2">
+        <img src="{{ '/images/experience/xpeng-aeroht-x2.jpg' | relative_url }}" width="3840" height="2160" alt="XPENG AEROHT X2 electric vertical take-off and landing aircraft with its cockpit doors open." loading="lazy">
+      </a>
+      <figcaption>XPENG AEROHT X2. Image: <a href="https://cn.aridge.com/about" target="_blank" rel="noopener noreferrer">official company website</a>.</figcaption>
+    </figure>
+  </article>
+
+  <article class="experience-entry" id="beihang-4" aria-labelledby="beihang-4-title">
+    <p class="experience-category">Engineering project</p>
+    <div class="experience-heading">
+      <h2 id="beihang-4-title">Beihang-4 <span lang="zh-CN">北航四号</span></h2>
+      <p class="experience-dates">2020 &ndash; 2022</p>
+    </div>
+    <p class="experience-role">Control Algorithms &amp; Flight Trajectory Design</p>
+    <p class="experience-team">Beihang University &middot; Project participant</p>
+    <div class="experience-project-grid">
+      <div>
+        <p class="experience-context">Beihang-4 is a near-space rocket-powered aircraft developed through a university engineering project. The project completed its maiden flight on 27 May 2020.</p>
+        <ul class="experience-details">
+          <li><strong>Trajectory and control design.</strong> Contributed to the flight trajectory and control scheme using MATLAB and C.</li>
+          <li><strong>Verification.</strong> Evaluated the feasibility of the control system through simulation and hardware-in-the-loop testing.</li>
+        </ul>
+        <a class="experience-button" href="https://news.buaa.edu.cn/info/1002/51903.htm" target="_blank" rel="noopener noreferrer">Beihang official report <span aria-hidden="true">&nbsp;↗</span></a>
+      </div>
+      <figure class="experience-figure">
+        <a href="{{ '/images/experience/beihang-4-launch.jpg' | relative_url }}" aria-label="View full-size photograph of the Beihang-4 launch">
+          <img src="{{ '/images/experience/beihang-4-launch.jpg' | relative_url }}" width="1024" height="1820" alt="Beihang-4 lifting off during its flight test, with a bright exhaust plume." loading="lazy">
+        </a>
+        <figcaption>Beihang-4 launch. Image: <a href="https://news.buaa.edu.cn/info/1002/51903.htm" target="_blank" rel="noopener noreferrer">Beihang University News</a>.</figcaption>
+      </figure>
+    </div>
+  </article>
+</div>

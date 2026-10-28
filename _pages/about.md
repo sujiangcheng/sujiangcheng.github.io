@@ -20,6 +20,9 @@ advised by [Prof. Liaoni Wu](https://aerospace.xmu.edu.cn/info/2163/49693.htm),
 and my M.Eng. from [Beihang University](https://ev.buaa.edu.cn/) in 2021,
 advised by [Prof. Jia Song](https://shi.buaa.edu.cn/songjia/).
 
+I also worked as a Control Algorithm Engineer at XPENG AEROHT from January 2022
+to September 2023. Read more about my [industry and project experience](/experience/).
+
 I am open to discussion and collaboration. Feel free to reach out.
 
 My research interests:
