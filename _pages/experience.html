@@ -28,7 +28,12 @@ author_profile: true
   .experience-page .experience-project-grid .experience-details { margin-top: .8rem; }
   .experience-page .experience-context { margin-top: 0; font-size: .9rem; line-height: 1.8; }
   [data-theme="dark"] .experience-page { --experience-accent: #6ac7cf; --experience-muted: #b5c0c6; }
+  .experience-page .experience-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+  .experience-page .experience-gallery .experience-figure { margin-top: 0; }
+  .experience-page .experience-gallery img { aspect-ratio: 16 / 10; object-fit: contain; background: #f2f4f5; }
+  [data-theme="dark"] .experience-page .experience-gallery img { background: #20272b; }
   @media (max-width: 600px) {
+    .experience-page .experience-gallery { grid-template-columns: minmax(0, 1fr); }
     .experience-page .experience-project-grid { grid-template-columns: minmax(0,1fr); }
     .experience-page .experience-project-grid .experience-figure { max-width: 300px; margin-inline: auto; }
   }
@@ -80,6 +85,34 @@ author_profile: true
           <img src="{{ '/images/experience/beihang-4-launch.jpg' | relative_url }}" width="1024" height="1820" alt="Beihang-4 lifting off during its flight test, with a bright exhaust plume." loading="lazy">
         </a>
         <figcaption>Beihang-4 launch. Image: <a href="https://news.buaa.edu.cn/info/1002/51903.htm" target="_blank" rel="noopener noreferrer">Beihang University News</a>.</figcaption>
+      </figure>
+    </div>
+  </article>
+
+  <article class="experience-entry" id="compound-wing-uav" aria-labelledby="compound-wing-uav-title">
+    <p class="experience-category">Engineering project</p>
+    <div class="experience-heading">
+      <h2 id="compound-wing-uav-title">Compound-Wing VTOL UAV</h2>
+    </div>
+    <p class="experience-role">Vertical Takeoff Stability &amp; Actuator Dynamics</p>
+    <p class="experience-context">Flight control for a compound-wing UAV must account for propulsion disturbances, wind-induced aerodynamic moments, and slow actuator response during vertical takeoff.</p>
+    <ul class="experience-details">
+      <li><strong>Propulsion-induced disturbances.</strong> The rear propulsion engine must be kept running at a prescribed rotational speed before takeoff, generating a forward disturbance force, disturbing moments, and noise.</li>
+      <li><strong>Wind-induced aerodynamic moments.</strong> During vertical takeoff, wind acting on the wings can produce substantial aerodynamic moments that affect the UAV's stability.</li>
+      <li><strong>Actuator response and control lag.</strong> Large motors and propellers respond slowly, introducing actuation lag and delaying the aircraft's response to control commands.</li>
+    </ul>
+    <div class="experience-gallery" aria-label="Compound-wing UAV project images">
+      <figure class="experience-figure">
+        <a href="{{ '/images/experience/compound-wing-uav-platform.png' | relative_url }}" aria-label="View full-size photograph of the compound-wing UAV platform">
+          <img src="{{ '/images/experience/compound-wing-uav-platform.png' | relative_url }}" width="593" height="379" alt="Compound-wing UAV with a fixed wing and multiple lift propellers on a grassy field, with two team members beside it." loading="lazy">
+        </a>
+        <figcaption>Compound-wing UAV platform at the field test site.</figcaption>
+      </figure>
+      <figure class="experience-figure">
+        <a href="{{ '/images/experience/compound-wing-uav-test.png' | relative_url }}" aria-label="View full-size still image from the compound-wing UAV field test">
+          <img src="{{ '/images/experience/compound-wing-uav-test.png' | relative_url }}" width="565" height="229" alt="Still image of the compound-wing UAV at a grassy test site, with a canopy and a parked vehicle in the background." loading="lazy">
+        </a>
+        <figcaption>UAV field test scene (still image).</figcaption>
       </figure>
     </div>
   </article>
